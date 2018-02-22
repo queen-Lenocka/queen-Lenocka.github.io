@@ -1,2 +1,4 @@
 name: Lenka Kralovna
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
