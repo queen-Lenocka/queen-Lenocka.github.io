@@ -1,16 +1,16 @@
 - title: Home
   url: /
 - title: About
-  url: /about/about.md
+  url: /about
   sublinks:
     - title: Curriculum Vitae
-      url: /about/CV/cv.html
+      url: /about/CV
 - title: Projects
-  url: /projects/projects.md
+  url: /projects
   sublinks:
     - title: "[WPUB] Assignment 1"
-      url: /projects/WPUB/z1.md
+      url: /projects/WPUB
     - title: Bachelor's project
-      url: /projects/BP/bp.md
+      url: /projects/BP
 - title: Blog
   url: /blog
