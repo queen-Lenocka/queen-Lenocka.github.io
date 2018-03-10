@@ -3,8 +3,9 @@
 - title: About
   url: /about/about.md
   sublinks:
-    - title: CV
-      url: /about/cv.md
+    - title: Curriculum Vitae
+      url: /about/CV/cv.html
+      sublinks:
 - title: Projects
   url: /projects/projects.md
   sublinks:

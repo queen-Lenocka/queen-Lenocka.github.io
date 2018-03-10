@@ -1,0 +1,57 @@
+---
+layout: default
+---
+{% assign info = site.data.cv %}
+<div class="cv">
+	<h2>General info</h2>
+	<p>
+		<img src="{{ info.general.photo }}"> <br>
+		<b>Name: </b>{{ info.general.name }} <br>
+		<b>Born at: </b>{{ info.general.born-at }} <br>
+		<b>Citizienship: </b>{{ info.general.citizienship }} <br>
+		<b>Profession: </b>{{ info.general.profession }} <br>
+		<b>Site: </b><a href="{{ info.general.site }}">{{ info.general.site }}</a> <br>
+		<b>Email: </b>{{ info.general.email }} <br>
+	</p>
+	<h2>Career</h2>
+	<p>
+		{% for career in info.career %}
+			<b>Position: </b>{{ career.position }} <br>
+			<b>Company: </b>{{ career.company }} <br>
+			<b>Location: </b>{{ career.location }} <br>
+			<b>Dates: </b>{{ career.dates }} <br>
+			<br>
+		{% endfor %}
+	</p>
+	<h2>Education</h2>
+	<p>
+		{% for schools in info.education %}
+			<b>School: </b>{{ schools.school }} <br>
+			<b>Focus: </b>{{ schools.focus }} <br>
+			<b>Location: </b>{{ schools.location }} <br>
+			<b>Dates: </b>{{ schools.dates }} <br>
+			<br>
+		{% endfor %}
+	</p>
+	<h2>Skills</h2>
+		<h3> Programming skills</h3>
+			<p>
+				{% for ps in info.skills.programming %}
+					<b>Language: </b>{{ ps.language }} <br>
+					<b>Level: </b>{{ ps.skill }}<br>
+					<br>
+				{% endfor %}
+			</p>
+		<h3>Other skills</h3>
+			<p>
+				{% for others in info.skills.other %}
+					{{ others.o }} <br>
+				{% endfor %}
+			</p>
+	<h2>Hobbies</h2>
+		<p>
+			{% for hb in info.hobbies %}
+				{{ hb.h }} <br>
+			{% endfor %}
+		</p>
+</div>

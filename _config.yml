@@ -19,7 +19,7 @@ email: lenocka.koplikova@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog made temporarily for academic purposes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://lenocka.sk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  queen-Lenocka
 
 # Build settings
