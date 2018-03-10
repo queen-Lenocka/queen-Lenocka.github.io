@@ -3,11 +3,11 @@ layout: default
 ---
 {% assign info = site.data.cv %}
 <div class="cv">
+	<img src="{{ info.general.photo }}">
 	<h2>General info</h2>
 	<p>
-		<img src="{{ info.general.photo }}"> <br>
 		<b>Name: </b>{{ info.general.name }} <br>
-		<b>Born at: </b>{{ info.general.born-at }} <br>
+		<b>Born at: </b>{{ info.general.born-at | date_to_long_string }} <br>
 		<b>Citizienship: </b>{{ info.general.citizienship }} <br>
 		<b>Profession: </b>{{ info.general.profession }} <br>
 		<b>Site: </b><a href="{{ info.general.site }}">{{ info.general.site }}</a> <br>
@@ -19,7 +19,7 @@ layout: default
 			<b>Position: </b>{{ career.position }} <br>
 			<b>Company: </b>{{ career.company }} <br>
 			<b>Location: </b>{{ career.location }} <br>
-			<b>Dates: </b>{{ career.dates }} <br>
+			<b>Dates: </b>{{ career.dates | date_to_long_string }} <br>
 			<br>
 		{% endfor %}
 	</p>
@@ -29,7 +29,7 @@ layout: default
 			<b>School: </b>{{ schools.school }} <br>
 			<b>Focus: </b>{{ schools.focus }} <br>
 			<b>Location: </b>{{ schools.location }} <br>
-			<b>Dates: </b>{{ schools.dates }} <br>
+			<b>Dates: </b>{{ schools.dates | date_to_long_string }} <br>
 			<br>
 		{% endfor %}
 	</p>
