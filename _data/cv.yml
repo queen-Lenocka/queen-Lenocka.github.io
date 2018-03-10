@@ -1,0 +1,42 @@
+general:
+  name: Lenka Koplíková
+  born-at: 14-06-1997
+  citizienship: slovak
+  profession: student
+  site: http://queen-Lenocka.github.io
+  email: lenocka.koplikova@gmail.com
+  phone: +421 000 000 000
+
+career:
+  - position: system administrator and technician
+    company: Spojená škola Novohradská
+    location: Novohradská 3, 821 09 Bratislava
+    dates: 10-2015 - current
+  - position: hostess
+    company: Štúdio L+S, s.r.o.
+    location: Námestie 1. Mája 5, 811 06 Bratislava
+    dates: 06-2014 - current
+    
+education:
+  - school: Gymnázium Jura Hronca
+    focus: programming
+    location: Novohradská 3, 821 09 Bratislava
+    dates: 09-2007 - 06-2015
+   - school: Základná škola
+    focus: -
+    location: Mierová 46, 821 05 Bratislava
+    dates: 09-2003 - 06-2007
+    
+skills:
+  programming:
+    - language: C
+      skill: intermediate
+    - language: C#
+      skill: begginer
+  other:
+    - o: teamwork
+    - o: decision making
+hobbies:
+  - h: reading fantasy books
+  - h: videogames
+  - h: quidditch
