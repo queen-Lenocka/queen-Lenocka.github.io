@@ -5,15 +5,12 @@
   sublinks:
     - title: Curriculum Vitae
       url: /about/CV/cv.html
-      sublinks:
 - title: Projects
   url: /projects/projects.md
   sublinks:
     - title: "[WPUB] Assignment 1"
       url: /projects/WPUB/z1.md
-      sublinks:
     - title: Bachelor's project
       url: /projects/BP/bp.md
-      sublinks:
 - title: Blog
   url: /blog

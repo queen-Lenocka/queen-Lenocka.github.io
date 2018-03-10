@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bakalaris: weekly update"
+author: Lenka Koplíková
 ---
 ![alt text](/assets/nervous.gif)\\
 Update? Nothing works again.

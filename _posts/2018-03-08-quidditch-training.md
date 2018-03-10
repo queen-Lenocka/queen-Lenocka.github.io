@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Quidditch practice"
+author: Lenka Koplíková
 ---
 
 ![alt text](/assets/pitch.gif)\\
