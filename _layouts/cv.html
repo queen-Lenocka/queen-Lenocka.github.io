@@ -19,7 +19,7 @@ layout: default
 			<b>Position: </b>{{ career.position }} <br>
 			<b>Company: </b>{{ career.company }} <br>
 			<b>Location: </b>{{ career.location }} <br>
-			<b>Dates: </b>{{ career.dates | date_to_long_string }} <br>
+			<b>Dates: </b>{{ career.date_from | date_to_long_string }} - {{ career.date_to | date_to_long_string }} <br>
 			<br>
 		{% endfor %}
 	</p>
@@ -29,7 +29,7 @@ layout: default
 			<b>School: </b>{{ schools.school }} <br>
 			<b>Focus: </b>{{ schools.focus }} <br>
 			<b>Location: </b>{{ schools.location }} <br>
-			<b>Dates: </b>{{ schools.dates | date_to_long_string }} <br>
+			<b>Dates: </b>{{ schools.date_from | date_to_long_string }} - {{ career.date_to | date_to_long_string }} <br>
 			<br>
 		{% endfor %}
 	</p>
@@ -38,7 +38,7 @@ layout: default
 			<p>
 				<b>Languages: </b>	
 				{% for ps in info.skills.programming %}
-					{{ ps.language }}
+					{{ ps.language }},
 				{% endfor %}
 			</p>
 		<h3>Other skills</h3>
