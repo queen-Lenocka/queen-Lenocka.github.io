@@ -12,28 +12,33 @@ career:
   - position: system administrator and technician
     company: Spojená škola Novohradská
     location: Novohradská 3, 821 09 Bratislava
-    dates: 10-2015 - current
+    dates: 10-2015 to current
   - position: hostess
     company: Štúdio L+S, s.r.o.
     location: Námestie 1. Mája 5, 811 06 Bratislava
-    dates: 06-2014 - current
+    dates: 06-2014 to current
     
 education:
+  - school: Slovak university of technology in Bratislava
+    focus: Faculty of informatics and information technologies
+    location: Ilkovičova 2, 842 16 Bratislava
+    dates: 09-2015 to current
   - school: Gymnázium Jura Hronca
     focus: programming
     location: Novohradská 3, 821 09 Bratislava
-    dates: 09-2007 - 06-2015
+    dates: 09-2007 to 06-2015
   - school: Základná škola
     focus: none
     location: Mierová 46, 821 05 Bratislava
-    dates: 09-2003 - 06-2007
+    dates: 09-2003 to 06-2007
     
 skills:
-  programming:
+  programming languages:
     - language: C
-      skill: intermediate
     - language: C#
-      skill: begginer
+    - language: java
+    - language: c++
+    - language: python
   other:
     - o: teamwork
     - o: decision making
