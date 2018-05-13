@@ -36,10 +36,9 @@ layout: default
 	<h2>Skills</h2>
 		<h3> Programming skills</h3>
 			<p>
+				<b>Languages: </b>	
 				{% for ps in info.skills.programming %}
-					<b>Language: </b>{{ ps.language }} <br>
-					<b>Level: </b>{{ ps.skill }}<br>
-					<br>
+					{{ ps.language }}
 				{% endfor %}
 			</p>
 		<h3>Other skills</h3>
