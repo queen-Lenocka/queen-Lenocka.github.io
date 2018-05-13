@@ -24,7 +24,7 @@ Image below shows intro to the final version of our game and you can see trailer
 This game was made for school project. I've learned to create a game from scratch at OpenGL, using gravitation, phong lighting and more. It was fun to make my own graphics, even though they were nowhere near perfect.
 
 ## Dragons and Dungeons
-![dnd](../assets/dnd.JPG "Dragons and Dungeons" {width=40px height=400px})
+![dnd](../assets/dnd.JPG "Dragons and Dungeons")
 
 I've been playing D&D since 2009, both as player and dungeon master. I've developed skills in observation of situation, strategical thinking, teamwork, patience, creative thinking, improvisation and character design.
 
