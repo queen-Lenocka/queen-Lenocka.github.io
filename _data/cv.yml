@@ -12,25 +12,30 @@ career:
   - position: system administrator and technician
     company: Spojená škola Novohradská
     location: Novohradská 3, 821 09 Bratislava
-    dates: 10-2015 to current
+    date_from: 10-2015
+    date_to: current
   - position: hostess
     company: Štúdio L+S, s.r.o.
     location: Námestie 1. Mája 5, 811 06 Bratislava
-    dates: 06-2014 to current
+    date_from: 06-2014
+    date_to: current
     
 education:
   - school: Slovak university of technology in Bratislava
     focus: Faculty of informatics and information technologies
     location: Ilkovičova 2, 842 16 Bratislava
-    dates: 09-2015 to current
+    date_from: 09-2015
+    date_to: current
   - school: Gymnázium Jura Hronca
     focus: programming
     location: Novohradská 3, 821 09 Bratislava
-    dates: 09-2007 to 06-2015
+    date_from: 09-2007
+    date_to: 06-2015
   - school: Základná škola
     focus: none
     location: Mierová 46, 821 05 Bratislava
-    dates: 09-2003 to 06-2007
+    date_from: 09-2003
+    date_to: 06-2007
     
 skills:
   programming:
@@ -42,6 +47,17 @@ skills:
   other:
     - o: teamwork
     - o: decision making
+
+achievements:
+  - field: quidditch
+    competition: Czech national championship
+    a: my team won first place
+  - field: quidditch
+    competition: European Quidditch Cup
+    a: 24th place
+  - field: game making
+    competition: Špongia
+    a: [7th](http://www.smnd.sk/mikey/PHP/spongia/spongia_2013/results.php) place
 hobbies:
   - h: reading fantasy books
   - h: videogames
