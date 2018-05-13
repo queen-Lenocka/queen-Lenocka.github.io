@@ -48,16 +48,6 @@ skills:
     - o: teamwork
     - o: decision making
 
-achievements:
-  - field: quidditch
-    competition: Czech national championship 2018
-    a: my team won first place
-  - field: quidditch
-    competition: European Quidditch Cup 2018
-    a: 24th place
-  - field: game making
-    competition: Špongia 2013
-    a: [7th](http://www.smnd.sk/mikey/PHP/spongia/spongia_2013/results.php) place
 hobbies:
   - h: reading fantasy books
   - h: videogames
